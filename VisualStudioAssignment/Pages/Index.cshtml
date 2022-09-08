@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Music Video</h1>
+    <p id="p_id" class="p-text">Check out one of my favorite songs, with its music video.</p>
+    <br />
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/S3fTw_D3l10" title="Alt-J (∆) - Taro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="circle" onmouseover="changeCircle()" onmouseout="normalCircle()"></div>
+</div>
